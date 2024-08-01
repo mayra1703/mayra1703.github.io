@@ -1,21 +1,30 @@
 * {
     font-family: "Poppins", sans-serif;
+
+    /*Colors*/
+    --turquesa: #16425B;
+    --lightTurquesa: #2F6690;
+    --lightBlue: #3A7CA5;
+    --mint: #81C3D7;
+    --slate: #D9DCD6;
 }
 
 header {
-    background-color: #3C4F76;
+    background-color: var(--turquesa);
 }
 
 header span {
-    color: #DDDBF1;
+    /*color: #DDDBF1;*/
+    color: white;
+    font-weight: 500;
 }
 
 .nav-item a {
-    color: #DDDBF1;
+    color: var(--slate);
 }
 
 .nav-item a:visited {
-    color: #DDDBF1;
+    color: var(--slate);
 }
 
 .nav-item a:hover {
@@ -23,12 +32,71 @@ header span {
 }
 
 #nav-button {
-    background-color: #DDDBF1;
-    color: #3C4F76;
-    font-weight: 500;
+    background-color: var(--mint);
+    color: white;
+    font-weight: 400;
 }
 
-.bi{
+.info {
+    text-align: justify;
+    margin: auto;
+}
+
+.info h1 {
+    color: var(--turquesa);
+}
+
+.info h4 {
+    color: var(--lightBlue);
+}
+
+.info button {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: var(--turquesa);
+}
+
+.info button:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: var(--mint);
+    border: var(--lightTurquesa);
+    color: white;
+}
+
+.img-profile {
+    margin: auto 60px ;
+}
+
+.img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#habilidades h2, #proyectos h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+#testimonios h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--lightBlue);
+}
+
+#habilidades {
+    background-color: var(--mint);
+}
+
+.item {
+    border-radius: 10px;
+    background-color: white;
+    text-align: justify;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.bi {
     color: #3C4F76;
     width: auto;
     height: auto;
