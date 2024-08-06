@@ -125,3 +125,22 @@ header span {
     position: relative;
     z-index: 2;
 }
+
+.icon-mail {
+    font-size: 60px;
+    color: var(--lightBlue);
+}
+
+.icon-footer {
+    font-size: 27px;
+    color: white;
+}
+
+footer {
+    background-color: var(--lightBlue);
+    color: white;
+}
+
+footer a {
+    color: white;
+}
