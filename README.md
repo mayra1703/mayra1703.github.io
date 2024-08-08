@@ -5,7 +5,7 @@ Proyecto creado durante el bootcamp de Tecnolochicas PRO. Es adaptable a distint
 
 El propósito de ésta página web es mostrar mi portafolio de proyecto como desarrolladora web. 💙
 
-Puedes encontrarlo aqui [Portafolio](https://mayra1703.github.io)
+Puedes encontrarlo aquí → [Portafolio](https://mayra1703.github.io)
 
 ### Tecnologías
 
